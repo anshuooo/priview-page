@@ -1,16 +1,48 @@
-<<<<<<< HEAD
-# React + Vite
+# 🛍️ Product Preview Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple **Product Preview Page** built with **React**, **React Router**, and **Tailwind CSS**.  
+It fetches dynamic product details from the [DummyJSON API](https://dummyjson.com/products) based on the product ID from the URL.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+Coming soon...
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Product-Preview-Page
->>>>>>> 4a0335964b921e60dc5d3a709efd235332c378f4
+---
+
+## 📸 Preview
+
+![Product Preview](./preview.png) <!-- (Add screenshot of the page and rename if needed) -->
+
+---
+
+## 🧰 Tech Stack
+
+- ⚛️ React
+- 🌐 React Router DOM
+- 💨 Tailwind CSS
+- 📡 Fetch API
+- 🔗 DummyJSON REST API
+
+---
+
+## 🛠️ Features
+
+- 🔍 Dynamic product fetching with product ID in URL
+- 🖼️ Displays image, title, price, description, and rating
+- ❌ 404 Page for invalid product IDs
+- 🧭 Back to Home navigation
+- 💅 Responsive & clean UI with Tailwind CSS
+
+---
+
+## 🧑‍💻 How to Run Locally
+
+Clone the repo and run:
+
+```bash
+git clone https://github.com/anshuooo/priview-page.git
+cd priview-page
+npm install
+npm run dev
